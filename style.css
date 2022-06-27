@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+.logo {
+    margin: 1em 4em 1em 4em;
+    width: 10%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+.list-menu li {
+    display: flex;
+    color: #333;
+    margin-right: 1em;
+}
+
+.list-menu li:hover {
+    background-color: #f5f5f5;
+    text-decoration: underline;
+    transform: translateY(1em);
+    transition: 1s;
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 3em;
+}
+
+.register-button {
+    margin-left: 1em;
+}
+
+.login-button, .register-button{
+    display: block;
+    width: 7em;
+    height: 2.5em;
+    border-color: #18A0FB;
+    border-radius: 7px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.login-button:hover, .register-button:hover {
+    transform: translateY(1em) rotate(360deg);
+    transition: 0.25s;
+}
+
+.rectangle {
+    width : 100%;
+}
+
+.snap-photo {
+    margin-top: 2em;
+    margin-left: 2.2em;
+    max-width: 12em;
+    font-size: 2em;
+}
+
+.snap-content-1, .snap-content-2, .container-left{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.p-all {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.p-1, .p-2, .p-3, .p-4, .p-5{
+    max-width: 36em;
+}
+
+.rectangle-side-right, .rectangle-side-left {
+    width: 45%;
+    max-height: 37.5em;
+}
+
+.rectangle-side-right {
+    margin-left: 10.25em;
+}
+
+.rectangle-side-left {
+    margin-right: 10.25em;
+}
+
+
+.container-left, .container-right {
+    display: flex;
+    width: 100%;
+    margin-top: 2.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right {
+    background-color: #F5F5F5;
+}
+
+.p-6, .p-6-title {
+    display: flex;
+    justify-content: center;
+}
+
+.good-company {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.l-1-rect, .l-2-rect {
+    display: flex;
+    justify-content: center;
+}
+
+.rect-mini {
+    max-width: 5em;
+    margin: 1em;
+}
+
+.container-join {
+    display:flex;
+    background: #F5F5F5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-container-join {
+    margin: 30px;
+    max-width: 30em;
+}
